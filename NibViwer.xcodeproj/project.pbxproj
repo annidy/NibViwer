@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0C0123C177A8A3000F5FC65 /* NVDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C0123B177A8A3000F5FC65 /* NVDragView.m */; };
+		A0C01241177A967500F5FC65 /* Compiled Nib Opener.nib.zip in Resources */ = {isa = PBXBuildFile; fileRef = A0C01240177A967500F5FC65 /* Compiled Nib Opener.nib.zip */; };
+		A0C01247177ABF4B00F5FC65 /* window.icns in Resources */ = {isa = PBXBuildFile; fileRef = A0C01246177ABF4A00F5FC65 /* window.icns */; };
+		A0E17C6017798F8B0036AF08 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E17C5F17798F8B0036AF08 /* Cocoa.framework */; };
+		A0E17C6A17798F8B0036AF08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0E17C6817798F8B0036AF08 /* InfoPlist.strings */; };
+		A0E17C6C17798F8B0036AF08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E17C6B17798F8B0036AF08 /* main.m */; };
+		A0E17C7017798F8B0036AF08 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A0E17C6E17798F8B0036AF08 /* Credits.rtf */; };
+		A0E17C7317798F8B0036AF08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E17C7217798F8B0036AF08 /* AppDelegate.m */; };
+		A0E17C7617798F8B0036AF08 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0E17C7417798F8B0036AF08 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0C0123A177A8A3000F5FC65 /* NVDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVDragView.h; sourceTree = "<group>"; };
+		A0C0123B177A8A3000F5FC65 /* NVDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVDragView.m; sourceTree = "<group>"; };
+		A0C01240177A967500F5FC65 /* Compiled Nib Opener.nib.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "Compiled Nib Opener.nib.zip"; path = "../../../../../../../Users/fengxing/Downloads/untitled folder/Compiled Nib Opener.nib.zip"; sourceTree = "<group>"; };
+		A0C01246177ABF4A00F5FC65 /* window.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = window.icns; sourceTree = "<group>"; };
+		A0E17C5B17798F8B0036AF08 /* NibViwer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibViwer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E17C5F17798F8B0036AF08 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A0E17C6217798F8B0036AF08 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A0E17C6317798F8B0036AF08 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A0E17C6417798F8B0036AF08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0E17C6717798F8B0036AF08 /* NibViwer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NibViwer-Info.plist"; sourceTree = "<group>"; };
+		A0E17C6917798F8B0036AF08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0E17C6B17798F8B0036AF08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0E17C6D17798F8B0036AF08 /* NibViwer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NibViwer-Prefix.pch"; sourceTree = "<group>"; };
+		A0E17C6F17798F8B0036AF08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A0E17C7117798F8B0036AF08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0E17C7217798F8B0036AF08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0E17C7517798F8B0036AF08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0E17C5817798F8B0036AF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E17C6017798F8B0036AF08 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0E17C5017798F8A0036AF08 = {
+			isa = PBXGroup;
+			children = (
+				A0C01246177ABF4A00F5FC65 /* window.icns */,
+				A0E17C6517798F8B0036AF08 /* NibViwer */,
+				A0E17C5E17798F8B0036AF08 /* Frameworks */,
+				A0E17C5C17798F8B0036AF08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0E17C5C17798F8B0036AF08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0E17C5B17798F8B0036AF08 /* NibViwer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0E17C5E17798F8B0036AF08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0E17C5F17798F8B0036AF08 /* Cocoa.framework */,
+				A0E17C6117798F8B0036AF08 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0E17C6117798F8B0036AF08 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0E17C6217798F8B0036AF08 /* AppKit.framework */,
+				A0E17C6317798F8B0036AF08 /* CoreData.framework */,
+				A0E17C6417798F8B0036AF08 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A0E17C6517798F8B0036AF08 /* NibViwer */ = {
+			isa = PBXGroup;
+			children = (
+				A0E17C7117798F8B0036AF08 /* AppDelegate.h */,
+				A0E17C7217798F8B0036AF08 /* AppDelegate.m */,
+				A0E17C7417798F8B0036AF08 /* MainMenu.xib */,
+				A0E17C6617798F8B0036AF08 /* Supporting Files */,
+				A0C0123A177A8A3000F5FC65 /* NVDragView.h */,
+				A0C0123B177A8A3000F5FC65 /* NVDragView.m */,
+			);
+			path = NibViwer;
+			sourceTree = "<group>";
+		};
+		A0E17C6617798F8B0036AF08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0C01240177A967500F5FC65 /* Compiled Nib Opener.nib.zip */,
+				A0E17C6717798F8B0036AF08 /* NibViwer-Info.plist */,
+				A0E17C6817798F8B0036AF08 /* InfoPlist.strings */,
+				A0E17C6B17798F8B0036AF08 /* main.m */,
+				A0E17C6D17798F8B0036AF08 /* NibViwer-Prefix.pch */,
+				A0E17C6E17798F8B0036AF08 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0E17C5A17798F8B0036AF08 /* NibViwer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E17C7917798F8B0036AF08 /* Build configuration list for PBXNativeTarget "NibViwer" */;
+			buildPhases = (
+				A0E17C5717798F8B0036AF08 /* Sources */,
+				A0E17C5817798F8B0036AF08 /* Frameworks */,
+				A0E17C5917798F8B0036AF08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NibViwer;
+			productName = NibViwer;
+			productReference = A0E17C5B17798F8B0036AF08 /* NibViwer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0E17C5217798F8A0036AF08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A0E17C5517798F8B0036AF08 /* Build configuration list for PBXProject "NibViwer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0E17C5017798F8A0036AF08;
+			productRefGroup = A0E17C5C17798F8B0036AF08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0E17C5A17798F8B0036AF08 /* NibViwer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0E17C5917798F8B0036AF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E17C6A17798F8B0036AF08 /* InfoPlist.strings in Resources */,
+				A0E17C7017798F8B0036AF08 /* Credits.rtf in Resources */,
+				A0E17C7617798F8B0036AF08 /* MainMenu.xib in Resources */,
+				A0C01241177A967500F5FC65 /* Compiled Nib Opener.nib.zip in Resources */,
+				A0C01247177ABF4B00F5FC65 /* window.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0E17C5717798F8B0036AF08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E17C6C17798F8B0036AF08 /* main.m in Sources */,
+				A0E17C7317798F8B0036AF08 /* AppDelegate.m in Sources */,
+				A0C0123C177A8A3000F5FC65 /* NVDragView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0E17C6817798F8B0036AF08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E17C6917798F8B0036AF08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0E17C6E17798F8B0036AF08 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E17C6F17798F8B0036AF08 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A0E17C7417798F8B0036AF08 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E17C7517798F8B0036AF08 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0E17C7717798F8B0036AF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0E17C7817798F8B0036AF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A0E17C7A17798F8B0036AF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NibViwer/NibViwer-Prefix.pch";
+				INFOPLIST_FILE = "NibViwer/NibViwer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0E17C7B17798F8B0036AF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NibViwer/NibViwer-Prefix.pch";
+				INFOPLIST_FILE = "NibViwer/NibViwer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0E17C5517798F8B0036AF08 /* Build configuration list for PBXProject "NibViwer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E17C7717798F8B0036AF08 /* Debug */,
+				A0E17C7817798F8B0036AF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E17C7917798F8B0036AF08 /* Build configuration list for PBXNativeTarget "NibViwer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E17C7A17798F8B0036AF08 /* Debug */,
+				A0E17C7B17798F8B0036AF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0E17C5217798F8A0036AF08 /* Project object */;
+}
