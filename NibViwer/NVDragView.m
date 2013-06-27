@@ -43,7 +43,7 @@
     NSMutableParagraphStyle *style = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
     [style setAlignment:NSCenterTextAlignment];
     NSMutableDictionary* stringAttributes = [NSMutableDictionary dictionaryWithCapacity:2];
-    // Use the font with the PostScript name "Times-Roman" at 40 point. 
+    
     [stringAttributes setObject:[NSFont fontWithName:@"Helvetica" size:30] forKey:NSFontAttributeName];
     [stringAttributes setObject:style forKey:NSParagraphStyleAttributeName];
     [stringAttributes setObject:[NSColor grayColor] forKey:NSForegroundColorAttributeName];

@@ -24,21 +24,29 @@
     [super dealloc];
 }
 
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        NSString* openerZip = [[NSBundle mainBundle] pathForResource:@"Compiled Nib Opener.nib" ofType:@"zip"];
+        NSTask* zipTask = [NSTask launchedTaskWithLaunchPath:@"/usr/bin/unzip" arguments:[NSArray arrayWithObjects:@"-u", openerZip, @"-d", NSTemporaryDirectory(), nil]];
+        [zipTask waitUntilExit];
+        self.openerNib = [NSString stringWithFormat:@"%@%@", NSTemporaryDirectory(), @"Compiled Nib Opener.nib"];        
+    }
+    return self;
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
     [_dragView registerForDraggedTypes:[NSArray arrayWithObject:NSFilenamesPboardType]];
     [_dragView setOpenerDelegate:self];
-    
-    NSString* openerZip = [[NSBundle mainBundle] pathForResource:@"Compiled Nib Opener.nib" ofType:@"zip"];
-    NSTask* zipTask = [NSTask launchedTaskWithLaunchPath:@"/usr/bin/unzip" arguments:[NSArray arrayWithObjects:@"-u", openerZip, @"-d", NSTemporaryDirectory(), nil]];
-    [zipTask waitUntilExit];
-    self.openerNib = [NSString stringWithFormat:@"%@%@", NSTemporaryDirectory(), @"Compiled Nib Opener.nib"];
-    
-    NSArray *arguments = [[NSProcessInfo processInfo] arguments];
-    if ([arguments count] > 1) {
-        
-    }
+}
+
+- (BOOL)application:(NSApplication *)sender openFile:(NSString *)filename
+{
+    [self openNibFile:filename];
+    return YES;
 }
 
 // param nib: the file path
@@ -60,8 +68,8 @@
         goto error;
     }
 
-    // Step3: XCode打开
-    if (![[NSWorkspace sharedWorkspace] openFile:distNib withApplication:@"XCode"] &&
+    // Step3: Xcode打开
+    if (![[NSWorkspace sharedWorkspace] openFile:distNib withApplication:@"Xcode"] &&
         ![[NSWorkspace sharedWorkspace] openFile:distNib withApplication:@"Interface Builder"])
     {
         error = [NSError errorWithDomain:NSPOSIXErrorDomain code:ENOEXEC userInfo:nil];
