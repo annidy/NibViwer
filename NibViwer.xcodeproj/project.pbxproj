@@ -20,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		2CB02F1519D45EF300B67F7C /* Compiled Nib Opener.nib.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Compiled Nib Opener.nib.zip"; sourceTree = "<group>"; };
+		2CFD4F0319D68227008683BE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		2CFD4F0419D68227008683BE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		2CFD4F0519D68227008683BE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
 		A0C0123A177A8A3000F5FC65 /* NVDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVDragView.h; sourceTree = "<group>"; };
 		A0C0123B177A8A3000F5FC65 /* NVDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVDragView.m; sourceTree = "<group>"; };
 		A0C01248177AC71100F5FC65 /* window.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = window.icns; sourceTree = "<group>"; };
@@ -147,6 +150,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = A0E17C5017798F8A0036AF08;
 			productRefGroup = A0E17C5C17798F8B0036AF08 /* Products */;
@@ -191,6 +195,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0E17C6917798F8B0036AF08 /* en */,
+				2CFD4F0419D68227008683BE /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0E17C6F17798F8B0036AF08 /* en */,
+				2CFD4F0519D68227008683BE /* zh-Hans */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0E17C7517798F8B0036AF08 /* en */,
+				2CFD4F0319D68227008683BE /* zh-Hans */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
