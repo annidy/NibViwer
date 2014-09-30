@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CB02F1619D45EF300B67F7C /* Compiled Nib Opener.nib.zip in Resources */ = {isa = PBXBuildFile; fileRef = 2CB02F1519D45EF300B67F7C /* Compiled Nib Opener.nib.zip */; };
 		A0C0123C177A8A3000F5FC65 /* NVDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C0123B177A8A3000F5FC65 /* NVDragView.m */; };
-		A0C01241177A967500F5FC65 /* Compiled Nib Opener.nib.zip in Resources */ = {isa = PBXBuildFile; fileRef = A0C01240177A967500F5FC65 /* Compiled Nib Opener.nib.zip */; };
 		A0C01249177AC71100F5FC65 /* window.icns in Resources */ = {isa = PBXBuildFile; fileRef = A0C01248177AC71100F5FC65 /* window.icns */; };
 		A0E17C6017798F8B0036AF08 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E17C5F17798F8B0036AF08 /* Cocoa.framework */; };
 		A0E17C6A17798F8B0036AF08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0E17C6817798F8B0036AF08 /* InfoPlist.strings */; };
@@ -19,9 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CB02F1519D45EF300B67F7C /* Compiled Nib Opener.nib.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Compiled Nib Opener.nib.zip"; sourceTree = "<group>"; };
+		2CFD4F0319D68227008683BE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		2CFD4F0419D68227008683BE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		2CFD4F0519D68227008683BE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
 		A0C0123A177A8A3000F5FC65 /* NVDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVDragView.h; sourceTree = "<group>"; };
 		A0C0123B177A8A3000F5FC65 /* NVDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVDragView.m; sourceTree = "<group>"; };
-		A0C01240177A967500F5FC65 /* Compiled Nib Opener.nib.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "Compiled Nib Opener.nib.zip"; path = "../../../../../../../Users/fengxing/Downloads/untitled folder/Compiled Nib Opener.nib.zip"; sourceTree = "<group>"; };
 		A0C01248177AC71100F5FC65 /* window.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = window.icns; sourceTree = "<group>"; };
 		A0E17C5B17798F8B0036AF08 /* NibViwer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibViwer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E17C5F17798F8B0036AF08 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -103,9 +106,9 @@
 		A0E17C6617798F8B0036AF08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A0C01240177A967500F5FC65 /* Compiled Nib Opener.nib.zip */,
 				A0E17C6717798F8B0036AF08 /* NibViwer-Info.plist */,
 				A0E17C6817798F8B0036AF08 /* InfoPlist.strings */,
+				2CB02F1519D45EF300B67F7C /* Compiled Nib Opener.nib.zip */,
 				A0E17C6B17798F8B0036AF08 /* main.m */,
 				A0E17C6D17798F8B0036AF08 /* NibViwer-Prefix.pch */,
 				A0E17C6E17798F8B0036AF08 /* Credits.rtf */,
@@ -147,6 +150,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = A0E17C5017798F8A0036AF08;
 			productRefGroup = A0E17C5C17798F8B0036AF08 /* Products */;
@@ -164,9 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E17C6A17798F8B0036AF08 /* InfoPlist.strings in Resources */,
+				2CB02F1619D45EF300B67F7C /* Compiled Nib Opener.nib.zip in Resources */,
 				A0E17C7017798F8B0036AF08 /* Credits.rtf in Resources */,
 				A0E17C7617798F8B0036AF08 /* MainMenu.xib in Resources */,
-				A0C01241177A967500F5FC65 /* Compiled Nib Opener.nib.zip in Resources */,
 				A0C01249177AC71100F5FC65 /* window.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,6 +195,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0E17C6917798F8B0036AF08 /* en */,
+				2CFD4F0419D68227008683BE /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0E17C6F17798F8B0036AF08 /* en */,
+				2CFD4F0519D68227008683BE /* zh-Hans */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0E17C7517798F8B0036AF08 /* en */,
+				2CFD4F0319D68227008683BE /* zh-Hans */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
